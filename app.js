@@ -16,7 +16,7 @@ app.register(require('k-fastify-gateway'), {
   routes: [
 
     {
-      prefix: '/v1.0/tokens',
+      prefix: '/v1.0/token',
       prefixRewrite: '',
       target: 'https://fda-services-accounts.herokuapp.com',
       middlewares: [],
