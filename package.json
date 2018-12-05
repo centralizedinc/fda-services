@@ -1,0 +1,20 @@
+{
+  "name": "fda-services",
+  "version": "1.0.0",
+  "description": "FDA API Gateway services",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "markjhonpaul.quijom@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "fastify": "^1.13.0",
+    "fastify-reply-from": "^0.5.2",
+    "helmet": "^3.15.0",
+    "jsonwebtoken": "^8.4.0",
+    "k-fastify-gateway": "^1.1.1"
+  }
+}
